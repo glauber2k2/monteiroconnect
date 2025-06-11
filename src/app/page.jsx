@@ -1,11 +1,17 @@
 import TopBar from "./components/TopBar";
-import Presentation from "./sessions/Presentation/page";
+import Faq from "./sessions/Faq";
+import Pillars from "./sessions/Pillars";
+import Presentation from "./sessions/Presentation";
+import Projects from "./sessions/Projects";
 
 export default function Home() {
   return (
-    <main className="flex flex-col bg-gradient-to-tl from-[#060c11] to-[#0e1c27] min-h-screen text-white">
+    <div class="">
       <TopBar />
       <Presentation />
-    </main>
+      <Projects />
+      <Pillars />
+      <Faq />
+    </div>
   );
 }
