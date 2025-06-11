@@ -9,11 +9,14 @@ const poppins = Poppins({
 export const metadata = {
   title: "Monteiro Connect",
   description: "Impulsione seu negocio com um site.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={poppins.className}>{children}</body>
     </html>
   );

@@ -4,7 +4,7 @@ import { CircleHelp } from "lucide-react";
 
 export default function Faq() {
   return (
-    <div className="h-screen w-full bg-[#060c11] text-white flex items-center justify-center">
+    <div className="h-screen w-full bg-[#060c11] text-white flex py-20 justify-center">
       <div className="max-w-7xl mx-auto px-4 flex flex-col w-full items-center">
         <h1 className="text-center text-2xl font-bold flex gap-2 items-center">
           <CircleHelp size={28} />

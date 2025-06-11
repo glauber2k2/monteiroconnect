@@ -7,18 +7,22 @@ export default function Presentation() {
     <div className="min-h-screen w-full bg-gradient-to-tl from-[#060c11] via-[#060c11] to-indigo-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 items-center min-h-screen gap-10">
         <div className="w-full flex flex-col justify-center">
-          <motion.h1
+          <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-xl lg:text-5xl font-bold mb-10 text-pretty"
+            className=" font-bold mb-4 text-pretty"
           >
-            Sua Empresa ainda não está na Internet? Seus concorrentes estão
-            Vendendo online. Você está??
-          </motion.h1>
+            <h1 className="text-xl lg:text-5xl">
+              Sua Empresa ainda não está na Internet?
+            </h1>
+            <h1 className="mt-4 text-lg lg:text-3xl">
+              Seus concorrentes estão vendendo online. Você está?
+            </h1>
+          </motion.div>
 
           <motion.h2
-            className="text-xl lg:text-2xl mb-10"
+            className="lg:text-xl mb-10"
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
@@ -29,7 +33,7 @@ export default function Presentation() {
           </motion.h2>
 
           <motion.button
-            className="w-fit bg-blue-400 py-4 px-8 font-bold uppercase rounded-full"
+            className="w-fit bg-indigo-400 py-4 px-8 font-bold uppercase rounded-full"
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
