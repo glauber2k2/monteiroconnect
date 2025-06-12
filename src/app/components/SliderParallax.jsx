@@ -114,7 +114,7 @@ function CarouselContainer({ children }) {
 
 function CarouselSlide({ children }) {
   return (
-    <div className="relative min-w-0 basis-4/5 flex-shrink-0 flex-grow-0 px-4">
+    <div className="relative min-w-0 basis-full md:basis-4/5 flex-shrink-0 flex-grow-0 mx-4">
       <div className="relative lg:h-[27rem] overflow-hidden">
         <div className="embla-parallax-layer relative flex h-full w-full justify-center">
           {children}
@@ -158,11 +158,11 @@ function CarouselDots() {
         <button
           key={index}
           onClick={() => onDotButtonClick(index)}
-          className="flex size-8 items-center justify-center rounded-full"
+          className="flex md:size-8 items-center justify-center rounded-full"
           type="button"
         >
           <div
-            className={`size-3 rounded-full transition-colors duration-200 ${
+            className={`md:size-3 size-2 rounded-full transition-colors duration-200 ${
               index === selectedIndex ? "bg-indigo-900" : "bg-indigo-900/40"
             }`}
           />
