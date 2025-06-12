@@ -26,10 +26,10 @@ export default function Projects() {
             <CarouselSlide key={1}>
               <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
-                  <span className="font-medium text-xl text-indigo-400">
+                  <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
                   </span>
-                  <h1 className="text-3xl">Equipe Bereshit</h1>
+                  <h1 className="sm:text-3xl text-2xl">Equipe Bereshit</h1>
 
                   <h2 className="mt-6 text-lg font-bold hidden lg:block">
                     Sobre o projeto
@@ -56,10 +56,10 @@ export default function Projects() {
             <CarouselSlide key={2}>
               <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
-                  <span className="font-medium text-xl text-indigo-400">
+                  <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
                   </span>
-                  <h1 className="text-3xl">Nice Burguer</h1>
+                  <h1 className="sm:text-3xl text-2xl">Nice Burguer</h1>
 
                   <h2 className="mt-6 text-lg font-bold hidden lg:block">
                     Sobre o projeto
@@ -87,10 +87,10 @@ export default function Projects() {
             <CarouselSlide key={3}>
               <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
-                  <span className="font-medium text-xl text-indigo-400">
+                  <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
                   </span>
-                  <h1 className="text-3xl">Time Align</h1>
+                  <h1 className="sm:text-3xl text-2xl">Time Align</h1>
 
                   <h2 className="mt-6 text-lg font-bold hidden lg:block">
                     Sobre o projeto
@@ -116,10 +116,10 @@ export default function Projects() {
             <CarouselSlide key={4}>
               <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
-                  <span className="font-medium text-xl text-indigo-400">
+                  <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
                   </span>
-                  <h1 className="text-3xl">Dev Glauber</h1>
+                  <h1 className="sm:text-3xl text-2xl">Dev Glauber</h1>
 
                   <h2 className="mt-6 text-lg font-bold hidden lg:block">
                     Sobre o projeto
