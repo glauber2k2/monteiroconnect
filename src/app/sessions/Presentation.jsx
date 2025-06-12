@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Presentation() {
   return (
-    <div className="min-h-screen w-full bg-gradient-to-tl from-[#060c11] via-[#060c11] to-indigo-900 text-white">
+    <div className="min-h-screen w-full bg-gradient-to-tl from-[#060c11] via-[#060c11] to-indigo-900 text-white via-55%">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 items-center min-h-screen gap-10">
         <div className="w-full flex flex-col justify-center">
           <motion.div

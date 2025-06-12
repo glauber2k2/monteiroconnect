@@ -1,3 +1,4 @@
+import { AttributeAutomaticSlider } from "./components/AttributesAutomaticSlider";
 import TopBar from "./components/TopBar";
 import Ai from "./sessions/Ai";
 import Faq from "./sessions/Faq";
@@ -11,6 +12,7 @@ export default function Home() {
     <div class="">
       <TopBar />
       <Presentation />
+      <AttributeAutomaticSlider />
       <Projects />
       <Pillars />
       <Ai />
