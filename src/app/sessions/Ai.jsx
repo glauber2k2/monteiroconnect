@@ -17,10 +17,13 @@ export default function Ai() {
           <span className="bg-indigo-500 w-fit text-sm sm:text-3xl lg:text-5xl p-2 font-bold">
             Inteligencia Artificial
           </span>
-          <article className="mt-8 text-justify lg:text-lg text-sm hidden sm:block">
-            A Monteiro Connect utiliza Inteligência Artificial para maximizar a
-            performance do seu site, adaptando conteúdo e apresentação de forma
-            estratégica conforme o nicho de mercado e o público-alvo.
+          <article className="mt-4 md:mt-8 text-justify lg:text-lg sm:text-sm text-xs ">
+            <span className="hidden sm:block">
+              A Monteiro Connect utiliza Inteligência Artificial para maximizar
+              a performance do seu site
+            </span>
+            adaptando conteúdo e apresentação de forma estratégica conforme o
+            nicho de mercado e o público-alvo.
           </article>
         </div>
       </div>
