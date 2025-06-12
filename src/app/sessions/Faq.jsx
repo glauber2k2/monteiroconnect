@@ -91,6 +91,40 @@ export default function Faq() {
             </AccordionContent>
           </AccordionItem>
 
+          <AccordionItem value="ia">
+            <AccordionTrigger>
+              Como é utilizada IA na criação do site?
+            </AccordionTrigger>
+            <AccordionContent>
+              <p>
+                Nosso site é potencializado por inteligência artificial para
+                entregar uma experiência mais estratégica e eficiente. A IA
+                analisa o nicho de mercado da página e o perfil do público-alvo
+                para direcionar tanto a estrutura quanto a copy de forma
+                persuasiva e personalizada. Isso significa que cada elemento do
+                site,desde os títulos até as chamadas para ação é otimizado para
+                atrair, engajar e converter com mais precisão.
+              </p>
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="tempo">
+            <AccordionTrigger>
+              Quanto tempo leva para o projeto ficar pronto?
+            </AccordionTrigger>
+            <AccordionContent>
+              <p>
+                O tempo de desenvolvimento pode variar conforme as demandas de
+                cada projeto. Para landing pages, o prazo costuma ser de 2 a 5
+                dias úteis, de acordo com o nível de complexidade e os detalhes
+                solicitados. Já para sites completos, o desenvolvimento
+                geralmente leva entre 4 a 7 dias úteis. A participação ativa do
+                cliente — como o envio rápido de informações e feedback — também
+                pode influenciar diretamente na velocidade de entrega.
+              </p>
+            </AccordionContent>
+          </AccordionItem>
+
           <AccordionItem value="responsividade">
             <AccordionTrigger>As páginas são responsivas?</AccordionTrigger>
             <AccordionContent>

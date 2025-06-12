@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TopBar() {
   return (
-    <div className="w-full bg-black/10 p-4 top-0 fixed z-50 text-white ">
+    <div className="w-full bg-black/5 p-4 top-0 fixed z-50 text-white backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center gap-4 text-xl font-medium">
           <img
