@@ -15,18 +15,16 @@ export default function TopBar() {
           <p className="text-sm sm:text-xl font-medium">MonteiroConnect</p>
         </div>
 
-        <div className="md:flex items-center gap-12 hidden">
-          <button>Quem somos</button>
-          <button>Portfolio</button>
+        <div className="flex items-center gap-12">
+          <button className="hidden md:block">Quem somos</button>
+          <button className="hidden md:block">Portfolio</button>
           <a
             href=""
-            className="px-4 py-2 border border-indigo-400 rounded-full"
+            className="px-4 py-2 border border-indigo-400 rounded-full md:text-base text-xs"
           >
             Orçamento
           </a>
         </div>
-
-        <Menu className="block sm:hidden" />
       </div>
     </div>
   );

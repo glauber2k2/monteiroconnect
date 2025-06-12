@@ -33,7 +33,7 @@ export default function Presentation() {
           </motion.h2>
 
           <motion.button
-            className="md:w-fit bg-indigo-400 py-4 px-8 font-bold uppercase rounded-full"
+            className="md:w-fit bg-emerald-400 py-4 px-8 font-bold uppercase rounded-full"
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}

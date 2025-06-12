@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Ai() {
   return (
-    <div className="w-full max-h-screen bg-[#060c11] text-white py-20 px-4">
+    <div className="w-full max-h-screen bg-[#060c11] text-white py-20 px-6">
       <div className="max-w-7xl mx-auto flex h-full items-center lg:gap-20 gap-4 bg-indigo-100/10 p-8 lg:p-10 backdrop-blur-sm rounded-3xl justify-center lg:justify-start">
         <img
           src="/assets/robot.png"
