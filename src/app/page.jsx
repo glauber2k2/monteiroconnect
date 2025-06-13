@@ -1,5 +1,6 @@
 import { AttributeAutomaticSlider } from "./components/AttributesAutomaticSlider";
 import TopBar from "./components/TopBar";
+import About from "./sessions/About";
 import Ai from "./sessions/Ai";
 import Faq from "./sessions/Faq";
 import Footer from "./sessions/Footer";
@@ -15,6 +16,7 @@ export default function Home() {
       <AttributeAutomaticSlider />
       <Projects />
       <Pillars />
+      <About />
       <Ai />
       <Faq />
       <Footer />
