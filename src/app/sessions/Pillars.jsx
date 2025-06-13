@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Pillars() {
   return (
-    <div className="w-full py-10 lg:py-20 bg-gradient-to-t from-[#060c11] via-indigo-950 to-[#060c11] flex items-center justify-center text-white">
+    <div className="w-full py-10 lg:py-20 bg-[#060c11] flex items-center justify-center text-white">
       <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between gap-8 flex-col sm:flex-row relative">
         <div className=" flex flex-col lg:w-1/2">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">

@@ -15,8 +15,8 @@ export default function Home() {
       <Presentation />
       <AttributeAutomaticSlider />
       <Projects />
-      <Pillars />
       <About />
+      <Pillars />
       <Ai />
       <Faq />
       <Footer />
