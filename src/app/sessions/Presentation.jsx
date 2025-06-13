@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Presentation() {
   return (
@@ -31,15 +32,16 @@ export default function Presentation() {
             a converter visitantes em clientes pelo WhatsApp. Simples, rápido e
             com resultados reais.
           </motion.h2>
-
-          <motion.button
-            className="md:w-fit bg-emerald-400 py-4 px-8 font-bold uppercase rounded-full"
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
-          >
-            Quero meu site agora!
-          </motion.button>
+          <Link href={"https://wa.me/message/5LIHPF2ZVXJZN1"} target="_blank">
+            <motion.button
+              className="md:w-fit bg-emerald-400 py-4 px-8 font-bold uppercase rounded-full"
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.8, ease: "easeOut" }}
+            >
+              Quero meu site agora!
+            </motion.button>
+          </Link>
         </div>
 
         <motion.img

@@ -67,9 +67,13 @@ export default function About() {
               UX Design
             </span>
           </div>
-          <button className="mt-2 -auto px-4 py-3 font-semibold bg-indigo-500 rounded-full">
+          <a
+            href="https://wa.me/message/5LIHPF2ZVXJZN1"
+            target="_blank"
+            className="mt-2 -auto px-4 py-3 font-semibold bg-indigo-500 rounded-full text-center"
+          >
             Fazer orçamento grátis
-          </button>
+          </a>
         </div>
       </div>
     </div>

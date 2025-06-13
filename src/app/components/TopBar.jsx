@@ -19,7 +19,8 @@ export default function TopBar() {
           <button className="hidden md:block">Quem somos</button>
           <button className="hidden md:block">Portfolio</button>
           <a
-            href=""
+            href="https://wa.me/message/5LIHPF2ZVXJZN1"
+            target="_blank"
             className="px-4 py-2 border border-indigo-400 rounded-full md:text-base text-xs"
           >
             Orçamento

@@ -9,7 +9,13 @@ import { CircleHelp } from "lucide-react";
 
 export default function Faq() {
   return (
-    <div className="md:min-h-screen w-full bg-[#060c11] flex py-10 md:py-20 justify-center bg-gradient-to-b from-[#060c11] via-[#060c11] to-indigo-900 text-white via-55%">
+    <div
+      className="md:min-h-screen w-full bg-[#060c11] flex py-10 md:py-20 justify-center  text-white via-55%"
+      style={{
+        background:
+          "radial-gradient(ellipse 80% 90% at center, #312e8140 0%, #060c11 50%)",
+      }}
+    >
       <div className="max-w-7xl mx-auto px-6 flex flex-col w-full items-center">
         <h1 className="text-center text-2xl font-bold flex gap-2 items-center">
           <CircleHelp size={28} />
