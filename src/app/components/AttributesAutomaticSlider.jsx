@@ -4,11 +4,8 @@ import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 import {
-  Gamepad2,
   Zap,
   ShieldCheck,
-  Cog,
-  CardSim,
   CreditCard,
   Scaling,
   Brain,
@@ -40,12 +37,20 @@ const SLIDES_DATA = [
     icon: <ShieldCheck size={26} className="text-indigo-500" />,
     title: "Equipe Especialista",
   },
+  {
+    icon: <ShieldCheck size={26} className="text-indigo-500" />,
+    title: "Equipe Especialista",
+  },
+  {
+    icon: <ShieldCheck size={26} className="text-indigo-500" />,
+    title: "Equipe Especialista",
+  },
 ];
 
 export function AttributeAutomaticSlider() {
   const [emblaRef] = useEmblaCarousel({ loop: true, align: "start" }, [
     AutoScroll({
-      speed: 1,
+      speed: 0.5,
       stopOnInteraction: false,
       playOnInit: true,
     }),
@@ -60,7 +65,7 @@ export function AttributeAutomaticSlider() {
         <div className="flex">
           {SLIDES_DATA.map((slide, index) => (
             <div
-              className="relative flex-shrink-0 min-w-0 basis-full pl-4 md:basis-1/3 xl:basis-1/4"
+              className="relative flex-shrink-0 min-w-0 md:mx-10"
               key={index}
             >
               <div className="flex items-center justify-center p-6 gap-2">
