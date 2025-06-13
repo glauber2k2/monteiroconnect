@@ -2,7 +2,13 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className=" w-full bg-[#060c11] flex py-10 md:py-20 justify-center text-white">
+    <div
+      className=" w-full  flex py-10 md:py-20 justify-center text-white"
+      style={{
+        background:
+          "radial-gradient(ellipse 90% 100% at center, #312e8160 0%, #060c11 50%)",
+      }}
+    >
       <div className="max-w-7xl mx-auto px-6 flex justify-between gap-10 w-full flex-col md:flex-row">
         <img
           src="/assets/logoimage.png"
