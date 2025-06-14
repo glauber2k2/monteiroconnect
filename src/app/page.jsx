@@ -10,7 +10,7 @@ import Projects from "./sessions/Projects";
 
 export default function Home() {
   return (
-    <div class="">
+    <div className="">
       <TopBar />
       <Presentation />
       <AttributeAutomaticSlider />

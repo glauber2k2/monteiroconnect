@@ -24,7 +24,7 @@ export default function Projects() {
         <Carousel options={options} autoplayOptions={autoplayOptions}>
           <CarouselContainer>
             <CarouselSlide key={1}>
-              <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
+              <div className="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
                   <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
@@ -54,7 +54,7 @@ export default function Projects() {
               </div>
             </CarouselSlide>
             <CarouselSlide key={2}>
-              <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
+              <div className="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
                   <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
@@ -85,7 +85,7 @@ export default function Projects() {
             </CarouselSlide>
 
             <CarouselSlide key={3}>
-              <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
+              <div className="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
                   <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>
@@ -114,7 +114,7 @@ export default function Projects() {
             </CarouselSlide>
 
             <CarouselSlide key={4}>
-              <div class="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
+              <div className="w-full bg-gradient-to-r from-transparent from-0% via-indigo-700/5 via-60% to-indigo-700/40 to-100% border-2 border-indigo-500 rounded-3xl transition-all duration-300  font-semibold backdrop-blur-sm flex lg:items-center justify-between flex-col-reverse lg:flex-row overflow-hidden">
                 <div className="lg:px-12 px-8 lg:py-20 py-10 lg:h-full">
                   <span className="font-medium sm:text-xl text-indigo-400">
                     CASE DE <strong className="font-bold">SUCESSO</strong>

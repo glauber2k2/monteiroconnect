@@ -16,6 +16,7 @@ export default function Faq() {
           "radial-gradient(ellipse 80% 90% at center, #312e8140 0%, #060c11 50%)",
       }}
     >
+      k
       <div className="max-w-7xl mx-auto px-6 flex flex-col w-full items-center">
         <h1 className="text-center text-2xl font-bold flex gap-2 items-center">
           <CircleHelp size={28} />
