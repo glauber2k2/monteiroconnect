@@ -11,7 +11,7 @@ const SITE_NAME = "Crie seu site profissional - Monteiro Connect";
 const DEFAULT_TITLE = "Monteiro Connect";
 const DEFAULT_DESCRIPTION =
   "Transforme sua presença online com um site profissional, rápido e responsivo. Solicite seu orçamento agora e destaque-se no digital!";
-const OG_IMAGE_URL = `${SITE_URL}/logoimage.jpg`;
+const OG_IMAGE_URL = `${SITE_URL}/logoimage.png`;
 
 export const metadata = {
   title: {
