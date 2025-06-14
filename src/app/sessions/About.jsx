@@ -3,6 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div
+      id="quemsomos"
       className=" w-full  flex py-10 md:py-20 justify-center text-white"
       style={{
         background:

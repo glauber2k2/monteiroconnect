@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-import { Menu } from "lucide-react";
 import React from "react";
 
 export default function TopBar() {
@@ -16,8 +14,12 @@ export default function TopBar() {
         </div>
 
         <div className="flex items-center gap-12">
-          <button className="hidden md:block">Quem somos</button>
-          <button className="hidden md:block">Portfolio</button>
+          <a href="#quemsomos" className="hidden md:block">
+            Quem somos
+          </a>
+          <a href="#portfolio" className="hidden md:block">
+            Portfolio
+          </a>
           <a
             href="https://wa.me/message/5LIHPF2ZVXJZN1"
             target="_blank"

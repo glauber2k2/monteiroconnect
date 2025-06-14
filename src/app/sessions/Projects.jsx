@@ -17,7 +17,10 @@ export default function Projects() {
   };
 
   return (
-    <div className="w-full max-h-screen bg-[#060c11] text-white py-10 md:py-20">
+    <div
+      id="portfolio"
+      className="w-full max-h-screen bg-[#060c11] text-white py-10 md:py-20"
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col h-full justify-center ">
         <div className="text-4xl lg:text-5xl font-medium mb-10">Portfolio</div>
 

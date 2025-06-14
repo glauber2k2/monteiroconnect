@@ -8,7 +8,11 @@ export default function Footer() {
         <div>
           <h1 className="text-xl">Monteiro Connect</h1>
           <h2 className="text-sm">Conectando você aos clientes certos!</h2>
-          <a href="" className="flex items-center gap-2 mt-4 text-xs">
+          <a
+            href="https://instagram.com/monteiroconnect"
+            target="_blank"
+            className="flex items-center gap-2 mt-4 text-xs"
+          >
             <Instagram size={18} /> Instagram
           </a>
         </div>
